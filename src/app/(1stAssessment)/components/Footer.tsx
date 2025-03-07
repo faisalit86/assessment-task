@@ -33,7 +33,7 @@ export default function Footer() {
     <footer className="bg-rangoon-green text-white">
       <div className="flex flex-col gap-y-4 md:flex-row md:gap-y-0  justify-between w-[80%] m-auto py-[100px]  ">
         <div>
-          <h2 className="font-manrope font-bold text-[32px] md:text-[48px] leading-[67.2px] tracking-[1px] relative bottom-[9px]">
+          <h2 className="font-manrope font-bold text-[32px] md:text-[48px] leading-[31.5px]  md:leading-[67.2px] tracking-[1px] relative bottom-[9px]">
             <span className="block">Get in touch with us</span>{" "}
             <span className="block">for your service</span>
           </h2>

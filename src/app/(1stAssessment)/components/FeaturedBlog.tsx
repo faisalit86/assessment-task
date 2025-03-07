@@ -4,7 +4,7 @@ import React from "react";
 
 export default function FeaturedBlog() {
   return (
-    <div className="flex items-center justify-center bg-white-smoke w-full h-full md:h-[633px] ">
+    <div className="flex items-center justify-center bg-white-smoke w-full h-full xl:h-[633px] ">
       <div className=" w-[90%] md:w-full xl:w-[70%] bg-white h-full xl:h-[402px] my-[40px] md:my-[116px] py-[16px] md:py-[32px] px-[10px] md:px-[44px] ">
         <div className="flex flex-col md:flex-row gap-x-4">
           <Image
@@ -12,7 +12,7 @@ export default function FeaturedBlog() {
             alt="blog-img"
             width={100}
             height={100}
-            className="h-[130px] md:h-[330px] w-[140px] md:w-[352px] bg-cover"
+            className="h-[130px] md:h-[330px] w-full md:w-[352px] bg-cover"
           />
           <div className="flex flex-col w-full justify-between">
             <div className="flex justify-between ">
@@ -22,7 +22,7 @@ export default function FeaturedBlog() {
                 </span>{" "}
                 <span className="flex  items-center gap-x-1 font-manrope text-sm xl:text-[16px] leading-[28px] font-normal xl:font-semibold">
                   <Eye />
-                  563 Views
+                  63 <span className="hidden md:block">Views</span>
                 </span>
               </p>
               <span className="uppercase hidden xl:block text-[#FF6433]  font-manrope text-[16px] leading-[28px] tracking-[4px] ">
