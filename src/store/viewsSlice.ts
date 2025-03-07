@@ -1,8 +1,5 @@
+import { ViewsState } from "@/types/blogs";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-
-interface ViewsState {
-  [key: string]: number;
-}
 
 const initialState: ViewsState = {};
 

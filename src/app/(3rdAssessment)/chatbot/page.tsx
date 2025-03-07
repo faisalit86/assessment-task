@@ -61,9 +61,9 @@ export default function Chatbot() {
   return (
     <div className="flex flex-col items-center justify-center">
       <h2 className="uppercase font-bold text-[22px] leading-[31.5px] my-11 font-manrope">
-        AI bot for Pizza shop
+        AI Chatbot for Pizza shop
       </h2>
-      <Card className="w-full !mx-3 md:mx-0 md:w-[640px] h-[600px] flex flex-col shadow-lg rounded-lg overflow-hidden">
+      <Card className="w-full !mx-3 md:mx-0 md:w-[520px] h-[600px] flex flex-col shadow-lg rounded-lg overflow-hidden">
         <ChatbotHeader />
 
         {messages.length == 0 && (

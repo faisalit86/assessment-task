@@ -54,7 +54,16 @@ export default function PropertySearchPage() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
-            <Button className="h-[44px] ">Search</Button>
+            <Button
+              disabled={searchQuery.length > 0 ? false : true}
+              className={`font-manrope font-semibold hover:text-white ${
+                searchQuery.length > 0
+                  ? "bg-black text-white"
+                  : "bg-gray-300 text-black"
+              } h-[44px] `}
+            >
+              Search
+            </Button>
           </div>
         </div>
 
