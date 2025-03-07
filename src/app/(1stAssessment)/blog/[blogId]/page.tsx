@@ -24,7 +24,6 @@ export default function BlogDetails() {
   if (isLoading) return <Loading />;
   if (isError) return <p>Error fetching blogs</p>;
 
-  console.log("blogDetail", blogDetail);
   return (
     <div className="container mx-auto">
       <div className="flex items-center justify-center">
