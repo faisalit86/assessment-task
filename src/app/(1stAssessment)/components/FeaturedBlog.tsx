@@ -16,7 +16,7 @@ export default function FeaturedBlog() {
           />
           <div className="flex flex-col w-full justify-between">
             <div className="flex justify-between ">
-              <p className="flex gap-x-4 font-manrope text-grey ">
+              <p className="flex justify-between w-full xl:w-max md:gap-x-4 font-manrope text-grey ">
                 <span className="font-manrope text-sm xl:text-[16px] leading-[28px] font-normal xl:font-semibold">
                   Posted on March 6th 2025
                 </span>{" "}
